@@ -11,4 +11,4 @@ def create_instance(ami_id, min_count, max_count, instance_type, key_name):
         KeyName=key_name 
     )
 
-    print(instances + " instances are launched successfully")
+    print("instances are launched successfully")
